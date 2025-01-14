@@ -34,18 +34,23 @@ header {
     margin: 8px;
   }
 
-
-  div{
-    text-align: center;
-    font-size: 36px;
-  }
   li{
     list-style: none;
     display: inline;
     margin: 15px; 
   }
 
-  ul{
-    text-align: center;
-
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  li, .rede-social {
+    margin-left: 48px;
   }
